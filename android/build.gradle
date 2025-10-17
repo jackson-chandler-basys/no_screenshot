@@ -27,6 +27,7 @@ apply plugin: 'kotlin-android'
 android {
     namespace "com.flutterplaza.no_screenshot"
     compileSdkVersion 36
+    minSdk 25
 
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_17
@@ -38,7 +39,7 @@ android {
     }
 
     defaultConfig {
-        minSdk = 25
+        minSdkVersion 25
         targetSdk = 36
     }
 }
